@@ -4,13 +4,17 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cdb269f4-45a5-405b-a571-aa9754e25a3e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyShutdownService.py</StartupFile>
+    <StartupFile>TestDeletion.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PyShutdownService</Name>
     <RootNamespace>PyShutdownService</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +25,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="SMWinservice.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PyShutdownService.py" />
+    <Compile Include="TestDeletion.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
