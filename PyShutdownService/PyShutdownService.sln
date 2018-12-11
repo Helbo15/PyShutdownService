@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyShutdownService", "PyShutdownService\PyShutdownService.pyproj", "{CDB269F4-45A5-405B-A571-AA9754E25A3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDB269F4-45A5-405B-A571-AA9754E25A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB269F4-45A5-405B-A571-AA9754E25A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52E0CA99-9D4B-4C2E-BCAB-B62B0533C2BA}
+	EndGlobalSection
+EndGlobal
